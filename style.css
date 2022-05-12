@@ -1,0 +1,56 @@
+	* {
+			box-sizing: border-box;
+		}
+
+		body {
+			max-width: 1920px;
+			margin: auto;
+			color: #00000;
+			background: gray;
+			font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		}
+
+
+.flexbox-container{
+	display: flex;
+	background-color: lightblue;
+	justify-content: center;
+}
+.flexbox-item {
+	margin: 10px;
+	border: 3px solid #333;
+	background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+	// min-height: 600px;
+	width: 15%;
+	min-width: 200px;
+}
+
+.flexbox-item-2 {
+	min-height: 600px;
+	width: 60%;
+}
+
+.sidebar {
+			background-color: black;
+			color: white;
+			padding: 15px;
+			top: 15px;
+		}
+
+p {
+	font-size: 18px;
+	line-height: 1.3em;
+}
+
+li {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+.flexbox-item-1 {
+	display: none;
+}
+}
