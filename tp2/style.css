@@ -23,7 +23,7 @@ body {
 }
 
 .page {
-    background-image: url(/tp2/images/about-bg.jpg);
+    background-image: url(./images/about-bg.jpg);
 }
 
 .container {
