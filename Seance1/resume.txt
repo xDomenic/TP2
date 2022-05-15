@@ -1,3 +1,4 @@
+<! ----  Seance 0  ---- !>
 // Git 
     $ git clone <url>
     $ git commit -m "commentaire"
@@ -12,4 +13,13 @@
     // Color Choose Opacity
     // Responsive Javascript utility  
 
-Prochaine session : ?
+<! ----  Seance 0  ---- !>
+ // Resume de notre derniere Seance
+    - Voir ou est arrivé
+    - Savoir la maniere de concevoir des pages ( HTML - CSS )
+ // Flexbox 
+    // justify-content 
+    // align-items
+    // Jeu Froggy flexbox 
+// Travailler quelque page 
+    completer la 3 premier page au moin 

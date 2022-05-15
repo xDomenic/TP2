@@ -38,6 +38,10 @@ body {
     margin: 10px 0px;
 }
 
+.pb-20 {
+    padding-bottom: 20px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -182,6 +186,17 @@ a:active {
     height: 98vh;
     background-color: white;
     padding: 20px 35px;
+}
+
+.main-page-content {
+    display: flex;
+    gap: 20px;
+}
+
+.middle-aged-guy-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
