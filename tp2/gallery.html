@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gabarit Grid Images</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: gray;
+    }
+
+    .portfolio {
+      background-color: white;
+      max-width: 1080px;
+      margin: auto;
+      padding: 2vmin;
+    }
+
+    .portfolio img {
+      block-size: auto;
+      max-inline-size: 100%;
+      vertical-align: middle;
+    }
+
+    /* Embed */
+
+    .portfolio .embed {
+      overflow: hidden;
+      padding-block-start: 100%;
+      position: relative;
+    }
+
+    .portfolio .embed--1-2 {
+      padding-top: calc(100% / (1 / 2));
+    }
+
+    .portfolio .embed--2-1 {
+      padding-top: calc(100% / (2 / 1));
+    }
+
+    .portfolio .embed--2-3 {
+      padding-top: calc(100% / (2 / 3));
+    }
+
+    .portfolio .embed--3-2 {
+      padding-top: calc(100% / (3 / 2));
+    }
+
+    .portfolio .embed > * {
+      height: 100%;
+      left: 0;
+      object-fit: cover;
+      padding: 0.25em;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    /* Gallery  */
+
+    .portfolio .gallery {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(20, 1fr);
+    }
+
+    .portfolio .gallery__item--h-2 {
+      grid-column-end: span 2;
+    }
+
+    .portfolio .gallery__item--h-3 {
+      grid-column-end: span 3;
+    }
+
+    .portfolio .gallery__item--v-2 {
+      grid-row-end: span 2;
+    }
+
+    .portfolio .gallery__item--v-3 {
+      grid-row-end: span 3;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      .portfolio .gallery {     
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .mobile {
+        display: block;
+      }
+      .desktop {
+        display: none;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="portfolio">
+
+    <div class="gallery">
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=01" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=02" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=03" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--v-2">
+        <div class="embed embed--1-2">
+          <img src="https://via.placeholder.com/800x800.png?text=04" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=05" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2">
+        <div class="embed embed--2-1">
+          <img src="https://via.placeholder.com/800x800.png?text=06" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--v-2">
+        <div class="embed embed--1-2">
+          <img src="https://via.placeholder.com/800x800.png?text=07" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2">
+        <div class="embed embed--2-1">
+          <img src="https://via.placeholder.com/800x800.png?text=8" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--v-2">
+        <div class="embed embed--1-2">
+          <img src="https://via.placeholder.com/800x800.png?text=09" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-2">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=10" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=11" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--v-2 mobile">
+        <div class="embed embed--1-2">
+          <img src="https://via.placeholder.com/800x800.png?text=11b" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-2">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=12" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=13" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-3 desktop"> <!-- size -->
+        <div class="embed embed--2-3">
+          <img src="https://via.placeholder.com/800x800.png?text=14" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 mobile">
+        <div class="embed embed--2-1">
+          <img src="https://via.placeholder.com/800x800.png?text=14-size" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-3 gallery__item--v-2">
+        <div class="embed embed--3-2">
+          <img src="https://via.placeholder.com/800x800.png?text=15" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=16" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=17" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=18" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=19" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2">
+        <div class="embed embed--2-1">
+          <img src="https://via.placeholder.com/800x800.png?text=20" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--v-2">
+        <div class="embed embed--1-2">
+          <img src="https://via.placeholder.com/800x800.png?text=21" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=22" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-2">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=23" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=24" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=25" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-2">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=26" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=27" />
+        </div>
+      </div>
+      <div class="gallery__item mobile">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=27b" />
+        </div>
+      </div>
+      <div class="gallery__item mobile">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=27c" />
+        </div>
+      </div>
+      <div class="gallery__item gallery__item--h-2 gallery__item--v-2">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=28" />
+        </div>
+      </div>
+      <!-- 30-->
+      <div class="gallery__item gallery__item--h-2">
+        <div class="embed embed--2-1">
+          <img src="https://via.placeholder.com/800x800.png?text=29" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=30" />
+        </div>
+      </div>
+      <div class="gallery__item">
+        <div class="embed">
+          <img src="https://via.placeholder.com/800x800.png?text=31" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
