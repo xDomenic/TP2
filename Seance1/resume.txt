@@ -1,0 +1,15 @@
+// Git 
+    $ git clone <url>
+    $ git commit -m "commentaire"
+    $ git push 
+    $ git pull 
+// Flex
+    // justify-content 
+    // align-items 
+// HTML
+    // Savoir separer avant de travailler ( flex et grid ) 
+// Vs code Tips 
+    // Color Choose Opacity
+    // Responsive Javascript utility  
+
+Prochaine session : ?
