@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page">
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="/tp2/about.html">A propos</a>
+        <a href="/tp2/index.html">Accueil</a>
+        <a href="/tp2/contact.html">Contact</a>
+        <a href="/tp2/portfolio.html">portfolio</a>
+        <a href="/tp2/service1.html">Forfait1</a>
+        <a href="/tp2/services.html">Services</a>
+        <a href="/tp2/temoignages.html">Témoignages</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="navabr-logo">
+                <img height="60px" src="/tp2/images/logo-light.png" alt="">
+            </div>
+            <div class="navbar-list">
+                <ul>
+                    <li><a href="/tp2/index.html">Accueil</a></li>
+                    <li><a href="/tp2/about.html">A propos</a> </li>
+                    <li><a href="/tp2/services.html">Services</a></li>
+                    <li><a href="/tp2/portfolio.html">portfolio</a></li>
+                    <li><a href="/tp2/contact.html">Contact</a></li>
+                    <li><a href="/tp2/service1.html">Forfait1</a></li>
+                    <li><a href="/tp2/temoignages.html">Témoignages</a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-footer">
+                <div class="social-logos">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="right-sections">
+                    © 2016 Tous droits réservés Guy Morel - Le Photographe
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2 class="my-10 uppercase text-lg ">À propos </h2>
+            <div class="my-10 line-xs"></div>
+            <div class="blocDemo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a malesuada orci.
+                Donec nisi orci, tempor vitae elit quis, vulputate viverra dui. Nam vitae ex odio. Sed nec massa sapien.
+                Morbi id vestibulum metus, a rutrum augue.</div>
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
