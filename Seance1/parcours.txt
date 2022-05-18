@@ -1,0 +1,97 @@
+<! ------------------------------------  Seance 1  ------------------------------------ !> // OK
+
+1) Git 
+    $ git clone <url>
+    $ git commit -m "commentaire"
+    $ git push 
+    $ git pull 
+2) Flex
+    - justify-content 
+    - align-items 
+3) HTML & CSS
+    - Savoir separer avant de travailler ( flex et grid ) 
+4) Vs code Tips 
+    - Color Choose Opacity
+    - Responsive Javascript utility  
+
+<! ------------------------------------  Seance 2  ------------------------------------ !> // OK
+
+1) Resume de notre derniere Seance
+    - Voir ou est arrivé
+    - Savoir la maniere de concevoir des pages ( HTML - CSS )
+2) Flexbox 
+    - justify-content 
+    - align-items
+    - Jeu Froggy flexbox 
+3) Travailler quelque page 
+    - completer la 3 premier page au moin 
+
+<! ------------------------------------  JavaScript 101  ------------------------------------ !>
+
+1) Finition du tp2 si necesaire
+    - Completer les page restantes 
+    - Voir comment on peut utiliser Javascript dans le projet
+2) Initiation a Javascript
+    - Basics
+        - Variables
+        - Functions
+        - Arrow Functions
+    - Data Structure
+        - Array
+        - Object
+        - String
+        - Number
+    - Basic String Methods
+        - split
+        - join
+        - slice
+        - replace
+        - includes
+        - some
+        - every  
+    - High Order Functions
+        - map
+        - filter
+        - reduce
+        - find
+        - findIndex
+3) Exercices  
+    - Excercies 1 => .map()
+    - Exercices 2 => .map() .split() .join()
+    - Excercies 3 => .map() .includes()
+    - Excercies 4 => .map() .sort() .filter() .reduce()  
+
+<! ------------------------------------  JavaScript 102  ------------------------------------ !>
+
+1) DOM & Event Listener    
+    - DOM
+        - Selector
+        - Event
+        - Manipulation    
+    - Events & Forms
+        - onClick
+        - onChange
+        - onSubmit
+2) Async / Await
+    - Promise
+    - Callback
+    - Async / Await
+3) Exercices  
+    - Excercies 1 => .onChange() onKeyDown() , onKeyUp .onClick(), DOM manipulation
+    - Exercices 2 => .map() .forEach() .filter() , Event handle , DOM manipulation
+    - Excercies 3 => .handleFile() .onSubmit() .onClick() , DOM manipulation    
+
+<! ------------------------------------  JavaScript 103  ------------------------------------ !>
+
+1) JavsSript Modules
+    - import
+    - export
+    - export default
+2) Nodejs
+    - npx
+    - npm
+    - Nodejs
+    - npx Create React App
+    - node_modules
+    - package.json    
+
