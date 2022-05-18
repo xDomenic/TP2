@@ -84,6 +84,10 @@ body {
     border: none;
 }
 
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
 
 /************** Navbar Section$ ************* */
 
@@ -288,6 +292,26 @@ a:active {
     .desktop {
         display: none;
     }
+
+    .main-page-content {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ._8teen {
+        display: none;
+    }
+
+    .grid-section {
+        display: grid;
+        grid-template-columns: auto !important;
+        padding: 10px;
+    }
 }
 
 /* ************* PORTFOLIO CSS end */
@@ -306,6 +330,38 @@ a:active {
     right: 88px;
     top: 145px;
     background: white;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.border-right-left {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    gap: 17px;
+}
+
+.service>p {
+    font-size: 12px;
+}
+
+.service-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Responsive content */
@@ -344,11 +400,25 @@ a:active {
     .container {
         margin: 0;
     }
+
+    .grid-section {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
 }
 
 
 
 
+/* * {
+    transition: 2s !important;
+} */
+/* Slider */
+.prev:hover,
+.next:hover {
+    opacity: 1 !important;
+}
 
 
 
@@ -356,6 +426,7 @@ a:active {
 
 .topnav {
     overflow: hidden;
+    z-index: 10;
     background-color: #333;
     display: none;
     position: absolute;
@@ -420,4 +491,11 @@ a:active {
         display: block;
         text-align: left;
     }
+}
+
+.page {
+    transition: 1s;
+    background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674");
+    background-size: cover;
+    background-position: center center;
 }
