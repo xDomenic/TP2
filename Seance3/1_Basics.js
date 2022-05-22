@@ -18,7 +18,7 @@
 // VARIABLES & PRIMITIVE DATA TYPES ( Number , String , boolean , undefined , null )
 /* ************************************************************************************************** */
 
-const name = 'Mondher';
+const name = "Mondher";
 const modernString = `numero ${2}`;
 const age = 47;
 const moyenne = 10.03;
@@ -32,14 +32,14 @@ const presence = undefined;
 /* ************************************************************************************************** */
 // classic
 function getName(name) {
-  return 'Mon nom est ' + name;
+  return "Mon nom est " + name;
 }
 // modern
 const getNamee = (name) => {
-  return 'Mon nom est ' + name;
+  return "Mon nom est " + name;
 };
 // more modern
-const getNameee = (name) => 'Mon nom est ' + name;
+const getNameee = (name) => "Mon nom est " + name;
 // more more modern
 const getNameeee = (name) => `Mon nom est ${name}`;
 
@@ -47,13 +47,13 @@ const getNameeee = (name) => `Mon nom est ${name}`;
 // DECLARING VARIABLES ( const , let )
 /* ************************************************************************************************** */
 // const
-const oneTimeDeclare = 'ahmed';
-oneTimeDeclare = 'otherName'; // ERROR
+const oneTimeDeclare = "ahmed";
+oneTimeDeclare = "otherName"; // ERROR
 // var & let
-var var1 = 'hay';
+var var1 = "hay";
 {
-  var var1 = 'globalScope';
-  let var2 = 'innerScope';
+  var var1 = "globalScope";
+  let var2 = "innerScope";
 }
 console.log({ var1 });
 console.log({ var2 });
