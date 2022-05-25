@@ -62,6 +62,23 @@ const a2 = {
   lastname: "junior",
 };
 
+const list = ["ahmed", { name: "ahmed" }, 4, true];
+
+const objectt = {
+  key1: "efsf",
+  key2: "valye2",
+  key3: "valye3",
+  key4: "valye4",
+  key5: 3,
+  123: "chepaquoi",
+};
+
+function GetMeThis(anyKey) {
+  return objectt[anyKey];
+}
+var fieldtoget = 123;
+GetMeThis(fieldtoget); // 3
+
 const ReturnLastnameORname = (field) => {
   console.log(a2[field]);
 };
@@ -85,7 +102,8 @@ const adresse = {
   },
 };
 
-// console.log( adresse.bloc.object2.b )
+// Sction technique of object
+
 // First Methode Single
 const { rue } = adresse;
 // First Methode double nested object
@@ -115,11 +133,15 @@ const bb = {
   age: "23",
 };
 
-const ab = {};
+const ab = {
+  age: "bb.age",
+  lname: "a.lastname",
+  name: "a.name",
+};
 // Firs Methode OLD ONE
-ab.age = bb.age;
-ab.lname = a.lastname;
-ab.name = a.name;
+ab.age = "bb.age";
+ab.lname = "a.lastname";
+ab.name = "a.name";
 // Second Methode Modern ( Spread operator )
 
 const ab2 = {
@@ -158,5 +180,23 @@ const object = {
 };
 
 console.log(listofobject[0].lname);
+
+const people = [
+  { firstname: "ahmed", lastname: "ferah" },
+  { firstname: "dominic", lastname: "paraqualli" },
+  { firstname: "majdi", lastname: "hellal" },
+];
+
+persons.filter((e) => {
+  // traitement
+  // traiteent
+  if (e.age > 17) {
+    return true;
+  } else {
+    return false;
+  }
+});
+
+persons.filter((e) => e.age > 17);
 
 // console.log(a1.name, a1["lastname"]);
