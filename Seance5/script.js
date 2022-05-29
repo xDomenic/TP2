@@ -60,3 +60,6 @@ let counter = 0;
   ].reduce((total, e) => {
     return total + 1; // cette valeur de retour va etre la valeur total pour la suivante
   }, 2);
+
+
+
