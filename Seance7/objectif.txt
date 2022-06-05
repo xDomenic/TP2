@@ -1,0 +1,6 @@
+
+
+- Faire une petite revision de ce qu'on a vu 
+- comprendre les concept du Event 
+- comprendre les concept du DOM
+- Faire une application d'ajout de personne
