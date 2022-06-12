@@ -1,0 +1,14 @@
+- Revision sur la seance precedante dom et event
+
+- Comprendre concept des asynchronous
+- Comprendre Concept des callbacks
+   - C'est quoi une callback ?
+   - Pourquoi on utilise des callbacks ?
+   - Comment utiliser des callbacks ?
+   - Qu'est-ce que la difference entre les callbacks et les promesses ?
+- Comprendre le Concept des promises
+   - C'est quoi une promesse
+   - Quand est ce que je peux utiliser une promesse
+   - Async / Await
+   - Comment on l'utliser
+   - Quel sont les methodes d'utliliser une promesse

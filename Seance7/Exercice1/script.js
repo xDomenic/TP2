@@ -10,18 +10,16 @@ function handleChange() {
   const baliseP = document.querySelector("#id3");
 
   // tu vas me detecter si dans la valeur de l'input il exist "dominic"
-    if (input.includes("dominic")) {
+  if (input.includes("dominic") && input.includes("here")) {
     // tu va me changer le background
     baliseP.style.backgroundColor = "yellow";
     baliseP.innerHTML = "<h1> dominic is available please wait </h1>";
     console.log("Dom is available");
-    }
-    else if (input.includes("dominic is here")) {
-    console.log ("Dom's here");
+  } else if (input.includes("dominic")) {
+    console.log("Dom's here");
     baliseP.style.backgroundColor = "blue";
     baliseP.innerHTML = "<h1>You have reached dominic</h1>";
-  }
-   else {
+  } else {
     baliseP.style.backgroundColor = "unset";
     baliseP.innerHTML = "<h1>dominic is not available</h1>";
   }
