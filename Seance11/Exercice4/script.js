@@ -3,7 +3,7 @@ const KEY = 11;
 
 const crypt = () =>
 {
-    const valuerToEncrypt = prompt('Donne moi la valeur');
+    const valuerToEncrypt = prompt('Saisir un mot');
 
     const cryptesValue = valuerToEncrypt.split("").map(lettre =>
     {
@@ -37,7 +37,7 @@ const decrypt = () =>
             ? alpha.split('').reverse().join('')[new_index - 1]
             : alpha[new_index]
 
-    })
+    }).join("");
 
     const p = document.getElementById('cryptedValue');
     p.innerHTML = DecryptedValue;

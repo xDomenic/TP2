@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+button {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin: 0 auto;
+  }
+.w300 {
+ width: 300px;
+ margin: auto;
+}
